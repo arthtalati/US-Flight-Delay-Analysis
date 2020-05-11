@@ -20,7 +20,7 @@ library(leaflet.extras)
 airport<-read.csv("airports.csv")
 airline<-read.csv("airlines.csv")
 
-# net_flights<-read.csv("net_flights.csv")
+net_flights<-read.csv("net_flights.csv")
 
 
 taxiInA<-subset(net_flights,!is.na(net_flights$TAXI_IN),
